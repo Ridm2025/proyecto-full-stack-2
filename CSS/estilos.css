@@ -63,31 +63,28 @@ select {
 }
 
 .navbar {
-    min-height: 75px;
+    max-width: 1100px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #fb4103;
+    padding: 8px 20px;
+    flex-wrap: wrap;
+    color:#FA4301;
 }
 
-.logo {
+#logo_tienda{
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 10px;  
-    font-size: 24px;
-    font-weight: 800;
-    color: #fb4103;
 }
 
-
-.logo-icon {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    font-size: 21px;
+#logo_tienda img{
+    height: 84px;
+    display: block;
 }
 
 .nav {
@@ -167,7 +164,7 @@ select {
 }
 
 .hero {
-    background-color: #000247e7;
+    background-color: #001E4A;
     overflow: hidden;
     padding: 90px 0 100px;
 }
@@ -467,7 +464,7 @@ select {
 }
 
 .services {
-    background-color:#000247e7;
+    background-color:#001E4A;
 }
 
 .services-grid {
@@ -635,7 +632,7 @@ select {
 }
 
 .about {
-    background-color: #1f1f1f;
+    background-color: #001E4A;
 }
 
 .about-container {
@@ -647,11 +644,7 @@ select {
 
 .about-image {
     min-height: 400px;
-    background: linear-gradient(
-        135deg,
-        #172554,
-        #2563eb
-    );
+    background: #1f1f1f;
     border-radius: 20px;
     display: flex;
     align-items: center;
